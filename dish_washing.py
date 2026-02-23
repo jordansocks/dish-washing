@@ -2,8 +2,7 @@ import sys
 import time
 import random
 
-# dishes = random.randint(1,5)
-dishes = int(random.triangular(1,11,2))
+dishes = int(random.triangular(1,10,2))
 
 def intro():
     global dishes
